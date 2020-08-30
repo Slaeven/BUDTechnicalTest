@@ -1,0 +1,13 @@
+C:\Users\tomha\source\repos\BUDTechnicalTest\BUDTechnicalTest\bin\Debug\netcoreapp3.1\BUDTechnicalTest.exe
+C:\Users\tomha\source\repos\BUDTechnicalTest\BUDTechnicalTest\bin\Debug\netcoreapp3.1\BUDTechnicalTest.deps.json
+C:\Users\tomha\source\repos\BUDTechnicalTest\BUDTechnicalTest\bin\Debug\netcoreapp3.1\BUDTechnicalTest.runtimeconfig.json
+C:\Users\tomha\source\repos\BUDTechnicalTest\BUDTechnicalTest\bin\Debug\netcoreapp3.1\BUDTechnicalTest.runtimeconfig.dev.json
+C:\Users\tomha\source\repos\BUDTechnicalTest\BUDTechnicalTest\bin\Debug\netcoreapp3.1\BUDTechnicalTest.dll
+C:\Users\tomha\source\repos\BUDTechnicalTest\BUDTechnicalTest\bin\Debug\netcoreapp3.1\BUDTechnicalTest.pdb
+C:\Users\tomha\source\repos\BUDTechnicalTest\BUDTechnicalTest\obj\Debug\netcoreapp3.1\BUDTechnicalTest.csprojAssemblyReference.cache
+C:\Users\tomha\source\repos\BUDTechnicalTest\BUDTechnicalTest\obj\Debug\netcoreapp3.1\BUDTechnicalTest.AssemblyInfoInputs.cache
+C:\Users\tomha\source\repos\BUDTechnicalTest\BUDTechnicalTest\obj\Debug\netcoreapp3.1\BUDTechnicalTest.AssemblyInfo.cs
+C:\Users\tomha\source\repos\BUDTechnicalTest\BUDTechnicalTest\obj\Debug\netcoreapp3.1\BUDTechnicalTest.csproj.CoreCompileInputs.cache
+C:\Users\tomha\source\repos\BUDTechnicalTest\BUDTechnicalTest\obj\Debug\netcoreapp3.1\BUDTechnicalTest.dll
+C:\Users\tomha\source\repos\BUDTechnicalTest\BUDTechnicalTest\obj\Debug\netcoreapp3.1\BUDTechnicalTest.pdb
+C:\Users\tomha\source\repos\BUDTechnicalTest\BUDTechnicalTest\obj\Debug\netcoreapp3.1\BUDTechnicalTest.genruntimeconfig.cache
