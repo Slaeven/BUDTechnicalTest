@@ -23,6 +23,8 @@ namespace BUDTechnicalTest
             {
                 Console.WriteLine("Invalid ISO code please try again");
             }
+            Console.WriteLine("Press enter to close");
+            Console.ReadLine();
         }
 
         public List<string> ConstructISOList()
