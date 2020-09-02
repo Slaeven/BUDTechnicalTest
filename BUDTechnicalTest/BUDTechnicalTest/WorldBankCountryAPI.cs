@@ -8,22 +8,24 @@ using System.Xml.Schema;
 
 namespace BUDTechnicalTest
 {
-    class Program
+    public class WorldBankCountryAPI
     {
-        static void Main()
+        public static void Main()
         {
-            List<String> allISOCodes;
-            allISOCodes = ConstructISOList();
+            var worldBank = new WorldBankCountryAPI();
+
+            List<string> allISOCodes;
+            allISOCodes = worldBank.ConstructISOList();
 
             Console.WriteLine("Welcome to the World Bank Country Search");
             Console.WriteLine("Please enter a valid ISO Code Below");
-            while (InputCheck(allISOCodes) == false)
+            while (worldBank.InputCheck(allISOCodes, null) == false)
             {
                 Console.WriteLine("Invalid ISO code please try again");
             }
         }
 
-        static List<String> ConstructISOList()
+        public List<string> ConstructISOList()
         {
             List<string> isoCodes = new List<string>();
             XmlReader allCountryReader = XmlReader.Create("https://api.worldbank.org/v2/country?per_page=304");
@@ -38,12 +40,23 @@ namespace BUDTechnicalTest
                     isoCodes.Add(allCountryReader.ReadInnerXml());
                 }
             }
+            allCountryReader.Close();
             return isoCodes;
         }
 
-        static bool InputCheck(List<string> _allCodes)
+        public bool InputCheck(List<string> _allCodes, string _input)
         {
-            string userInput = Convert.ToString(Console.ReadLine());
+            string userInput;
+            if (_input == null)
+            {
+                userInput = Convert.ToString(Console.ReadLine());
+            }
+            else
+            {
+                userInput = _input;
+            }
+            if (_allCodes == null) { return false; }
+
             foreach(string code in _allCodes)
             {
                 if(userInput == code)
@@ -56,8 +69,13 @@ namespace BUDTechnicalTest
             return false;
         }
 
-        static void DisplayXML(string _input)
+        public bool DisplayXML(string _input)
         {
+            if (_input == null)
+            {
+                Console.WriteLine("Input is null");
+                return false;
+            }
             XmlReader reader = XmlReader.Create("https://api.worldbank.org/v2/country/" + _input);
             List<string> desiredFields = new List<string>();
             desiredFields.Add("wb:name");
@@ -73,6 +91,7 @@ namespace BUDTechnicalTest
                     Console.WriteLine(reader.ReadInnerXml());                   
                 }
             }
+            return true;
         }
 
     }

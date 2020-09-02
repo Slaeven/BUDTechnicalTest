@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tomha\\source\\repos\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest.csproj": {}
+    "M:\\Git Repso\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tomha\\source\\repos\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest.csproj": {
+    "M:\\Git Repso\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tomha\\source\\repos\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest.csproj",
+        "projectUniqueName": "M:\\Git Repso\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest.csproj",
         "projectName": "BUDTechnicalTest",
-        "projectPath": "C:\\Users\\tomha\\source\\repos\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest.csproj",
+        "projectPath": "M:\\Git Repso\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest.csproj",
         "packagesPath": "C:\\Users\\tomha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tomha\\source\\repos\\BUDTechnicalTest\\BUDTechnicalTest\\obj\\",
+        "outputPath": "M:\\Git Repso\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "M:\\Git Repso\\BUDTechnicalTest\\BUDTechnicalTest\\WorldBank.UnitTests\\WorldBank.UnitTests.csproj": {}
+  },
+  "projects": {
+    "M:\\Git Repso\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "M:\\Git Repso\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest.csproj",
+        "projectName": "BUDTechnicalTest",
+        "projectPath": "M:\\Git Repso\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest.csproj",
+        "packagesPath": "C:\\Users\\tomha\\.nuget\\packages\\",
+        "outputPath": "M:\\Git Repso\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tomha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "M:\\Git Repso\\BUDTechnicalTest\\BUDTechnicalTest\\WorldBank.UnitTests\\WorldBank.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "M:\\Git Repso\\BUDTechnicalTest\\BUDTechnicalTest\\WorldBank.UnitTests\\WorldBank.UnitTests.csproj",
+        "projectName": "WorldBank.UnitTests",
+        "projectPath": "M:\\Git Repso\\BUDTechnicalTest\\BUDTechnicalTest\\WorldBank.UnitTests\\WorldBank.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\tomha\\.nuget\\packages\\",
+        "outputPath": "M:\\Git Repso\\BUDTechnicalTest\\BUDTechnicalTest\\WorldBank.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tomha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "M:\\Git Repso\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest.csproj": {
+                "projectPath": "M:\\Git Repso\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest\\BUDTechnicalTest.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
